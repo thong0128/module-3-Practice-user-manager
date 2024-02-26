@@ -20,6 +20,7 @@
 </center>
 <div align="center">
     <caption><h2>List of User</h2></caption>
+    There are ${requestScope.users.size()} customer(s) in list.
     <table border="1" cellpadding="5">
         <tr>
             <th>ID</th>
@@ -28,7 +29,7 @@
             <th>Country</th>
             <th>Actions</th>
         </tr>
-        <c:forEach var="user" items="${userList}">
+        <c:forEach var="user" items="${requestScope.users}">
             <tr>
                 <td><c:out value="${user.id}"/></td>
                 <td><c:out value="${user.name}"/></td>

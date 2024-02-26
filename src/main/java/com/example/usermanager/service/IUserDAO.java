@@ -1,6 +1,6 @@
-package service;
+package com.example.usermanager.service;
 
-import model.User;
+import com.example.usermanager.model.User;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,7 +1,7 @@
-package controller;
+package com.example.usermanager.controller;
 
-import model.User;
-import service.UserDAO;
+import com.example.usermanager.model.User;
+import com.example.usermanager.service.UserDAO;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

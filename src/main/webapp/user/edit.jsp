@@ -15,7 +15,7 @@
 <center>
     <h1>User Management</h1>
     <h2>
-        <a href="users?action=users">List All Users</a>
+        <a href="/customers">List All Users</a>
     </h2>
 </center>
 <div align="center">
@@ -29,6 +29,10 @@
             <c:if test="${user != null}">
                 <input type="hidden" name="id" value="<c:out value="${user.id}"/>"/>
             </c:if>
+            <tr>
+                <th>ID:</th>
+                <td>${user.id}</td>
+            </tr>
             <tr>
                 <th>User Name:</th>
                 <td>

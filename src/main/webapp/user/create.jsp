@@ -20,7 +20,7 @@
 </center>
 <div align="center">
     <form method="post">
-        <table table border="1" cellpadding="5">
+        <table  border="1" cellpadding="5">
             <caption>
                 <h2>Add New User</h2>
             </caption>
