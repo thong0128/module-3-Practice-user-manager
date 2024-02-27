@@ -32,11 +32,11 @@
         <c:forEach var="user" items="${requestScope.users}">
             <tr>
                 <td><c:out value="${user.id}"/></td>
-                <td><c:out value="${user.name}"/></td>
+                <td><a href="/customers/${user.id}">${user.name}</a></td>
                 <td><c:out value="${user.email}"/></td>
                 <td><c:out value="${user.country}"/></td>
                 <td>
-                    <a href="/users?action=edit&id=${user.id}">Edit</a>
+                    <a href="/customers/${user.id}">Edit</a>
                     <a href="/users?action=delete&id=${user.id}">Delete</a>
                 </td>
             </tr>
